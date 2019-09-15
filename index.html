@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <title>Simple Survey Form</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Simple Survey Form</h1>
+    <p id="description">A simple survey form for FCC.</p>
+    <form action="#" id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Input your name." required>
+      <br>
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Input an email." required>
+      <br>
+      <label for="number" id="number-label">Age:</label>
+      <input type="number" name="age" id="number" placeholder="How old are you?" min=0 max=100 required>
+      <br>
+      <label for="dropdown">Country:</label>
+      <select name="dropdown" id="dropdown">
+        <option value="Morocco">Country A</option>
+        <option value="Canada">Country B</option>
+      </select>
+      <br>
+      <label for="gender">Gender:</label> <br>
+      <input type="radio" name="gender" id="gender">Male <br>
+      <input type="radio" name="gender" id="gender">Female <br>
+      <label for="hobby">Hobbies:</label> <br>
+      <ul>
+        <li style="list-style: none">
+          <input type="checkbox" name="hobby" value="music">Music
+        </li>
+        <li style="list-style: none">
+          <input type="checkbox" name="hobby" value="movies">Movies
+        </li>
+      </ul>
+      <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+      <input type="submit" id="submit">
+    </form>
+  </div>
+</body>
+</html>

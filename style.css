@@ -1,0 +1,78 @@
+body {
+  background-color: rgba(255, 215, 182, 0.432); 
+  min-width: 320px;
+}
+
+.container {
+  background-color: #7b7b7bcf;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+label {
+  display: inline-block;
+  text-align: right;  
+  margin-right: 12px;
+  width: 40%;
+  color: rgb(52, 63, 6);
+}
+
+select {
+  display: inline-block;
+  text-align: left;
+  margin-top: 5px;
+}
+
+input { 
+  display: inline-block; 
+  text-align: left;
+  width: 48%;
+  margin-top: 5px;
+}
+
+#gender {
+  margin-left: 42%;
+  width: auto;
+}
+
+ul {
+  display: inline;
+  text-align: left;
+}
+
+#number {
+  width: 25%;
+  height: 20px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+input[type="checkbox"]{
+  text-align: left;
+  margin-left: 40%;
+  width: 50px;
+}
+
+#name, #email {
+  width: 40%;
+}
+
+textarea {
+  display: inline-block;
+  max-width: 48%;
+  margin-top: 25px;
+  margin-left: 40%;
+  padding: 5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#submit {
+  width: 120px; 
+}
